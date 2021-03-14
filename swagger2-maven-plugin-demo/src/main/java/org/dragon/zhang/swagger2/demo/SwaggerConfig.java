@@ -1,4 +1,4 @@
-package org.dragon.zhang.annotator.demo;
+package org.dragon.zhang.swagger2.demo;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

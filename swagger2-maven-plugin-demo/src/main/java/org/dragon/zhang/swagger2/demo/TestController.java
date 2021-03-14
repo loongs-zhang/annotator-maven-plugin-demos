@@ -1,4 +1,4 @@
-package org.dragon.zhang.annotator.demo;
+package org.dragon.zhang.swagger2.demo;
 
 import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 类上的描述-annotator
+ * 类上的描述-swagger2
  *
  * @author zhangzicheng
  * @version 1.0.0

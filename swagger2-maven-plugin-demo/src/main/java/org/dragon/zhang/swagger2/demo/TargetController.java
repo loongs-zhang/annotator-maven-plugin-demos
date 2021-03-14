@@ -1,4 +1,4 @@
-package org.dragon.zhang.annotator.demo;
+package org.dragon.zhang.swagger2.demo;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 类上的描述2-annotator
+ * 类上的描述2-swagger2
  *
  * @author zhangzicheng
  * @version 1.0.0
@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
  * @see Exception
  * @since 1.0.0
  */
-@Api(tags = {"类上的描述2-annotator"}, protocols = "http,https")
+@Api(tags = {"类上的描述2-swagger2"}, protocols = "http,https")
 @RestController
 public class TargetController implements BeanNameAware {
 
