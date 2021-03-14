@@ -3,9 +3,9 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.3.2.RELEASE</version>
+		<groupId>com.github.dragon-zhang.annotator-maven-plugin-demos</groupId>
+		<artifactId>annotator-maven-plugin-demos</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
@@ -44,9 +44,8 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 			<plugin>
-				<groupId>org.dragon.zhang</groupId>
+				<groupId>com.github.dragon-zhang.annotator-maven-plugin-all</groupId>
 				<artifactId>swagger3-maven-plugin</artifactId>
-				<version>1.0.0-SNAPSHOT</version>
 				<dependencies>
 					<!-- 这里war包的依赖是必须的 -->
 					<dependency>
