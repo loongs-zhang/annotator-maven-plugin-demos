@@ -9,7 +9,7 @@
 		<relativePath>../pom.xml</relativePath>
 	</parent>
 
-	<groupId>org.dragon.zhang</groupId>
+	<groupId>com.github.dragon-zhang.annotator-maven-plugin-demos</groupId>
 	<artifactId>swagger3-maven-plugin-demo</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
@@ -49,7 +49,7 @@
 				<dependencies>
 					<!-- 这里war包的依赖是必须的 -->
 					<dependency>
-						<groupId>org.dragon.zhang</groupId>
+						<groupId>com.github.dragon-zhang.annotator-maven-plugin-demos</groupId>
 						<artifactId>swagger3-maven-plugin-demo</artifactId>
 						<version>1.0.0-SNAPSHOT</version>
 					</dependency>

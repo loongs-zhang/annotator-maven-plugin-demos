@@ -1,29 +1,18 @@
 # Getting Started
 
-### step1: clone project
-```
-git clone https://github.com/dragon-zhang/annotator-maven-plugin-all.git
-```
-
-### step2: run command
-run command below in annotator-maven-plugin-all
-```
-mvn clean install -U
-```
-
-### step3: run command
+### step1: run maven command
 to make sure new byte code generating
 
 first, delete all generated `targets` folder
 
 then, run command below in annotator-maven-plugin-demos
 ```
-mvn clean install
+mvn clean install -U
 ```
 
-### step4: deploy a war to tomcat
+### step2: deploy a war to tomcat
 
-### step5: view result
+### step3: view result
 for swagger2 users
 ```
 http://localhost:8080/swagger-ui.html
