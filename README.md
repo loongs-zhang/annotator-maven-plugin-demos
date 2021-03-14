@@ -20,9 +20,10 @@ then, run command below in annotator-maven-plugin-demos
 ```
 mvn clean install
 ```
-, 
 
-### step4: view result
+### step4: deploy a war to tomcat
+
+### step5: view result
 for swagger2 users
 ```
 http://localhost:8080/swagger-ui.html
