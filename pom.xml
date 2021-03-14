@@ -11,5 +11,6 @@
     <modules>
         <module>annotator-maven-plugin-demo</module>
         <module>swagger2-maven-plugin-demo</module>
+        <module>swagger3-maven-plugin-demo</module>
     </modules>
 </project>
