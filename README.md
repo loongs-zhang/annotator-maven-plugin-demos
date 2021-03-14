@@ -22,3 +22,5 @@ for swagger3 users
 ```
 http://localhost:8080/swagger-ui/index.html
 ```
+
+For more details, see [annotator-maven-plugin-all](https://github.com/dragon-zhang/annotator-maven-plugin-all).
